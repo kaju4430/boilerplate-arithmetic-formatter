@@ -1,4 +1,10 @@
 def arithmetic_arranger(problems, display_answer=False):
+    
+    upper_nums = list()
+    lower_nums = list()
+    dashes = list()
+    answers = list()
+    arranged_problems = ""
 
     #Check to see if number of problems more than four.
     if len(problems) > 5:
